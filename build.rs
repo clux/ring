@@ -196,6 +196,7 @@ fn cpp_flags(target: &Target) -> &'static [&'static str] {
             "-ffunction-sections",
             "-pedantic",
             "-pedantic-errors",
+            "-fPIC",
             "-Wall",
             "-Wextra",
             "-Wcast-align",
